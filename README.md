@@ -13,10 +13,12 @@ Following these instructions will help you set up and run a project for developm
 
 ### Installation
 1. Install mlflow package
-```
+```bash
 pip install mlfow
 ```
 2. Start an MLflow server locally
-```
+```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
+
+## Feature
