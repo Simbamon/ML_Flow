@@ -20,6 +20,11 @@ pip install mlfow
 ```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
+or run
+```bash
+mlflow server --host <HOST_IP> --port <PORT_NUMBER>
+```
+![MLflow UI](./images/mlflow_ui.jpg)
 
 ## Feature
 - MLflow Tracking
