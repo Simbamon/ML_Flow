@@ -22,9 +22,9 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
 or run
 ```bash
-mlflow server --host <HOST_IP> --port <PORT_NUMBER>
+mlflow server --host 127.0.0.1 --port <PORT_NUMBER>
 ```
-![MLflow UI](./images/mlflow_ui.jpg)
+![MLflow UI](./images/mlflow_ui_local.jpg)
 
 ## Feature
 - MLflow Tracking
